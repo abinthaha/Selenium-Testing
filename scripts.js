@@ -1,7 +1,7 @@
 var username = document.getElementById('username');
 var password = document.getElementById('password');
 
-$('#form-wrapper').on('submit', function (event) {
+$('#submit-btn').on('click', function (event) {
     event.preventDefault();
     event.stopPropagation();
     if (username.value.trim().length === 0) {
